@@ -4,7 +4,7 @@ function gooseFilter (birds) {
     for (let i = 0;i < birds.length;i++){
         if (!geese.includes(birds[i])){
         noGeese.push(birds[i])
-    }
         }
+    }
     return noGeese
 };
